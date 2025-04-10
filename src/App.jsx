@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import FanDashboard from "./pages/Dashboard/FanDashboard";
+import VenueDashboard from "./pages/Dashboard/VenueDashboard";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/dashboard/fan" element={<FanDashboard />} />
+        <Route path="/dashboard/venue" element={<VenueDashboard />} />
       </Routes>
     </div>
   );
