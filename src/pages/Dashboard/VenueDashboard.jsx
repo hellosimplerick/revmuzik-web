@@ -27,11 +27,13 @@ function VenueDashboard() {
             name="Luna Sky"
             genres="Indie Pop, Acoustic"
             imageUrl="https://i.pravatar.cc/300?img=13"
+            artistId="luna-sky"
           />
           <ArtistCard
             name="DJ Reverb"
             genres="Electronic, House"
             imageUrl="https://i.pravatar.cc/300?img=14"
+            artistId="dj-reverb"
           />
         </div>
       </section>
