@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import Home from "./pages/Home";
 import FanDashboard from "./pages/Dashboard/FanDashboard";
 import VenueDashboard from "./pages/Dashboard/VenueDashboard";
+import ArtistProfile from "./pages/ArtistProfile";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/dashboard/fan" element={<FanDashboard />} />
         <Route path="/dashboard/venue" element={<VenueDashboard />} />
+        <Route path="/artist" element={<ArtistProfile />} />
       </Routes>
     </div>
   );
